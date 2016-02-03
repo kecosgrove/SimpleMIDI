@@ -1,0 +1,6 @@
+C:\Users\Kevin\Documents\Coding\midi2\midi-lib1\midi-lib1\bin\Debug\midi-lib1.dll
+C:\Users\Kevin\Documents\Coding\midi2\midi-lib1\midi-lib1\bin\Debug\midi-lib1.pdb
+C:\Users\Kevin\Documents\Coding\midi2\midi-lib1\midi-lib1\obj\Debug\midi-lib1.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\Coding\midi2\midi-lib1\midi-lib1\obj\Debug\midi-lib1.dll
+C:\Users\Kevin\Documents\Coding\midi2\midi-lib1\midi-lib1\obj\Debug\midi-lib1.pdb
+C:\Users\Kevin\Documents\Coding\midi2\midi-lib1\midi-lib1\bin\Debug\Priority_Queue.dll

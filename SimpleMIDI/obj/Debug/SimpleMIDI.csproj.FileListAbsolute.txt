@@ -1,0 +1,6 @@
+C:\Users\Kevin\Documents\Coding\midi2\SimpleMIDI\SimpleMIDI\bin\Debug\midi-lib1.dll
+C:\Users\Kevin\Documents\Coding\midi2\SimpleMIDI\SimpleMIDI\bin\Debug\midi-lib1.pdb
+C:\Users\Kevin\Documents\Coding\midi2\SimpleMIDI\SimpleMIDI\bin\Debug\Priority_Queue.dll
+C:\Users\Kevin\Documents\Coding\midi2\SimpleMIDI\SimpleMIDI\obj\Debug\SimpleMIDI.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\Coding\midi2\SimpleMIDI\SimpleMIDI\obj\Debug\midi-lib1.dll
+C:\Users\Kevin\Documents\Coding\midi2\SimpleMIDI\SimpleMIDI\obj\Debug\midi-lib1.pdb

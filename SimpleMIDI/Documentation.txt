@@ -1,0 +1,51 @@
+namespace MIDIComposer
+
+	Classes:
+	-Note
+	-MIDIGenerator
+	
+	class Note
+		Fields:
+		static readonly byte DEFAULT_VELOCITY = 40
+		Constructors:
+		Note(long start, int duration, byte key)
+		//Constructs a new Note which starts at tick 'start', lasts for
+		//'duration' ticks, has the midi key 'key' and the midi velocity
+		//'DEFAULT_VELOCITY'.
+		Note(long start, int duration, byte key, byte velocity)
+		//Constructs a new Note which starts at tick 'start', lasts for
+		//'duration' ticks, has the midi key 'key' and the midi velocity
+		//'velocity'.
+		No Methods
+		
+	class MIDIGenerator
+		Fields:
+		static readonly ushort DEFAULT_TICKRATE = 128;
+		Constructors:
+		MIDIGenerator(string trackName)
+		//Constructs a new MIDIGenerator which will generate a track with the
+		//given name at the default tickrate.
+		MIDIGenerator(string trackName, ushort tickRate)
+		//Constructs a new MIDIGenerator which will generate a track with the
+		//given name at the given tickRate (ticks per quarter note).
+		Methods:
+		bool AddNote(Note note)
+		//Adds a note to the collection which will be written to the MIDI file.
+		//Returns true if the note was added successfully. Returns false if the
+		//note was not added (because it was already present).
+		void ChangeTickRate(ushort tickRate)
+		//Changes the tick rate to the given tick rate.
+		void ChangeTrackName(string trackName)
+		//Changes the track name to the given string.
+		ushort GetTickRate()
+		//Returns the tick rate of the MIDI file to be written.
+		string GetTrackName()
+		//Returns the name of the file this MIDIGenerator will generate.
+		bool RemoveNote(Note note)
+		//Removes a note from the collection which will be written to the MIDI
+		//file. Returns true if the note was removed successfully. Returns
+		//false if the note was not removed (because it was not present).
+		void WriteMIDI(string path)
+		//Takes a full path to a folder ending in '/' and writes a MIDI file to
+		//that folder containing all notes in the collection and with the given
+		//file name and tick rate.
