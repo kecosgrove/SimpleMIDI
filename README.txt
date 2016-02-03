@@ -7,6 +7,8 @@ is a collection of Note objects which initilizes as empty.
 MIDIGenerator.WriteMIDI() will write a MIDI file containing all the Notes
 currently in the collection. See Documentation.txt for details.
 
+Please report bugs to kecosgrove@vassar.edu
+
 To import this dll into your Visual Studio project:
 1. Right click on your project and click Add -> Reference.
 2. Click Browse.
